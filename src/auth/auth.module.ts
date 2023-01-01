@@ -1,9 +1,7 @@
 import { Module } from '@nestjs/common';
-import { UsersModule } from '../users/users.module';
 import { PassportModule } from '@nestjs/passport';
 import { JwtModule } from '@nestjs/jwt';
 import { jwtStrategy } from './jwt.strategy';
-import { OwnersModule } from 'src/owners/owners.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { User } from 'src/users/entities/user.entity';
 import { Owner } from 'src/owners/entities/owner.entity';
