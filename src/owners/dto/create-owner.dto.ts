@@ -20,7 +20,7 @@ export class CreateOwnerDto {
 
   @IsNotEmpty()
   @IsString()
-  @MinLength(8)
+  @MinLength(3)
   @MaxLength(20)
   menuName: string;
 
