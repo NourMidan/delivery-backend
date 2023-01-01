@@ -62,7 +62,7 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[nest.js]: https://img.shields.io/badge/nest.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[nest.js]: https://img.shields.io/badge/nest.js-000000?style=for-the-badge&logo=nestjs&logoColor=white
 [nest-url]: https://docs.nestjs.com
-[typeorm.js]: https://img.shields.io/badge/Typeorm.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[typeorm.js]: https://img.shields.io/badge/Typeorm-20232A?style=for-the-badge&logo=postgresql&logoColor=61DAFB
 [typeorm-url]: https://typeorm.io
