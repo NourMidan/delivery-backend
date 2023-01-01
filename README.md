@@ -63,6 +63,6 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [nest.js]: https://img.shields.io/badge/nest.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[next-url]: https://docs.nestjs.com
-[typeorm]: https://img.shields.io/badge/Typeorm.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[nest-url]: https://docs.nestjs.com
+[typeorm.js]: https://img.shields.io/badge/Typeorm.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [typeorm-url]: https://typeorm.io
