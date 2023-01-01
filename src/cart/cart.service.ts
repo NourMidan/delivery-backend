@@ -23,13 +23,13 @@ export class CartService {
         where: { id },
       });
 
-      const menu =
+      const { category } =
         cart.menuId &&
         (await this.menuRepository.findOne({
           where: { id: cart.menuId },
         }));
 
-      return { ...cart, ...menu };
+      return { ...cart, category };
     } catch (error) {
       throw new UnauthorizedException('unauthorized');
     }
