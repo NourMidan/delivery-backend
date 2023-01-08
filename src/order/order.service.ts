@@ -43,12 +43,16 @@ export class OrderService {
   }
 
   async getUserOrders(userData: User) {
-    const orders = userData.orders.reduce(
-      (acc, current) => acc.concat(current.id),
-      [],
-    );
+    // const orders = userData.orders.reduce(
+    //   (acc, current) => acc.concat(current.id),
+    //   [],
+    // );
+    // return await this.orderRepository.find({
+    //   where: { id: In(orders) },
+    // });
+
     return await this.orderRepository.find({
-      where: { id: In(orders) },
+      where: { user: { id: userData.id } },
     });
   }
 
